@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+     let car =
+      {
+        brand: 'Toyota',
+        model: 'Corolla',
+        year: 2020,
+  
+    getFullName: function()
+     {
+       return this.brand + ' ' + this.model;
+     },
+  
+    calculateAge: function(currentYear)
+     {
+        return currentYear - this.year;
+     }
+};
+
+
+    document.writeln(car.getFullName()); 
+
+
+     let currentYear = 2023;
+     document.writeln(car.calculateAge(currentYear)); 
+
+	</script>
+
+</body>
+</html>
